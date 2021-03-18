@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 20; i++) {
             mWordList.addLast("Word " + i);
             // Get a handle to the RecyclerView.
-
             mRecyclerView = findViewById(R.id.recyclerview);
             // Create an adapter and supply the data to be displayed.
             mAdapter = new WorldListAdapter(this, mWordList);
@@ -82,3 +81,4 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+}
